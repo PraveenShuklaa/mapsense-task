@@ -3,13 +3,13 @@ import React, { createContext, useState } from 'react';
 const StoreContext = createContext();
 
 function Provider(props) {
-    const [closeSidebar, setCloseSidebar] = useState('hello');
+    const [state, setState] = useState('');
 
     return (
         <StoreContext.Provider
             value={{
-                closeSidebar,
-                setCloseSidebar,
+                state,
+                setState,
             }}
         >
             {props.children}
