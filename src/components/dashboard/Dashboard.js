@@ -52,7 +52,7 @@ function Dashboard() {
                         <h3>{`${fName} ${lName}`}, <span>{pinCode}</span></h3>
                     </div>
                     <div className='col-6 dashmapsenselogo'>
-                        <img className='mapSenselogo' title='Log out' src='/Assets/MapsenseLogo.png' alt='dashmapsenselogo' onClick={logOut} />
+                        <img className='mapSenselogo' src='/Assets/MapsenseLogo.png' alt='dashmapsenselogo' />
                     </div>
                 </div>
                 <div className='row tabledata'>

@@ -1,9 +1,6 @@
 .dashmapsenselogo {
   text-align: right;
 }
-.dashmapsenselogo img {
-  cursor: pointer;
-}
 .dashmapsenselogo img.mapSenselogo {
   height: 4rem;
 }
