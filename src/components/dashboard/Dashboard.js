@@ -6,16 +6,15 @@ import axios from 'axios';
 import { NotificationManager } from 'react-notifications';
 
 function Dashboard() {
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     const [statsData, setStatsData] = useState([]);
     const userData = JSON.parse(localStorage.userLoginData);
     const { fName, lName, pinCode } = userData;
     const history = useHistory();
 
     useEffect(() => {
-        setLoading(true);
         getData();
-    }, [])
+    })
 
     const logOut = () => {
         localStorage.clear();
@@ -98,7 +97,7 @@ function Dashboard() {
                                         })
                                         :
                                         <TableRow >
-                                            <TableCell colspan='8' align='center'>No data found!</TableCell>
+                                            <TableCell colSpan='8' align='center'>No data found!</TableCell>
                                         </TableRow>
                                 }
                             </TableBody>
