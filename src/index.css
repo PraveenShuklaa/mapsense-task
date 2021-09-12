@@ -1,0 +1,10 @@
+html,
+body,
+#root,
+.loginWrapper,
+.loginWrapper .container-fluid,
+.loginWrapper .container-fluid > .row,
+.dashboardWrapper,
+.dashboardWrapper > .container-fluid {
+  height: 100%;
+}

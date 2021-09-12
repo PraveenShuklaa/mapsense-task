@@ -1,0 +1,58 @@
+.dashmapsenselogo {
+  text-align: right;
+}
+.dashmapsenselogo img {
+  cursor: pointer;
+}
+.dashmapsenselogo img.mapSenselogo {
+  height: 4rem;
+}
+.userdata {
+  display: inline-flex;
+  align-items: center;
+}
+.userdata h3 {
+  color: #545454;
+  margin-bottom: 0;
+}
+.userdata h3 span {
+  font-size: 0.8rem;
+}
+.tabledata {
+  min-height: calc(100% - 7rem);
+}
+.tabledata .col-12 {
+  height: 100%;
+}
+.tabledata th {
+  background: #332272;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0.75rem;
+}
+.tabledata td {
+  color: #000;
+  font-weight: 500;
+  padding: 0.75rem;
+}
+.tabledata tr:nth-of-type(even) td {
+  background-color: #ececec;
+}
+.tabledata tr:nth-of-type(odd) td {
+  background-color: #f9f9f9;
+}
+.back_loadmore .col-12 {
+  text-align: center;
+}
+.back_loadmore button {
+  text-transform: none;
+  box-shadow: none;
+  color: #fff;
+}
+.back_loadmore button:first-of-type {
+  background-color: #ff3838;
+}
+.back_loadmore button:last-of-type {
+  background-color: #332272;
+  margin-left: 1rem;
+}

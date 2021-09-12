@@ -1,0 +1,47 @@
+/* .loginBanner {
+  padding: 0.5rem 1rem;
+} */
+.loginBanner h2,
+.loginBanner p {
+  color: #fff;
+}
+.formSection {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2%;
+}
+.formDiv {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formSection .mapSenselogorow .col-12 {
+  text-align: right;
+}
+.mapSenselogo {
+  height: 5rem;
+}
+.formDiv label {
+  color: #545454;
+  font-weight: 500;
+}
+.formDiv input {
+  background-color: #ececec;
+}
+.formDiv input:focus {
+  box-shadow: none;
+}
+.formDiv button.form-control,
+.formDiv button.form-control:focus {
+  text-transform: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.formDiv button.submitButton {
+  background-color: #332272;
+}
+.formDiv button.resetButton {
+  background-color: #ff3838;
+}
